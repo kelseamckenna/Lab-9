@@ -10,6 +10,8 @@ img {
 }
 
 .cool-background {
+	color:  white;
 	background-image: url('images/tree.jpg');
 	background-color: lightgrey;
+	background-size:  cover;
 }
