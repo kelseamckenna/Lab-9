@@ -1,0 +1,14 @@
+body {
+	max-width: 600px;
+	font-size:  2rem;
+	font-family:  Baskerville;
+	margin:  0 auto;
+}
+
+img {
+	max-width: 100%;
+}
+
+.cool-background {
+	background-image: url('image/tree.jpg');
+}
