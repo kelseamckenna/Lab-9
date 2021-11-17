@@ -10,5 +10,6 @@ img {
 }
 
 .cool-background {
-	background-image: url('image/tree.jpg');
+	background-image: url('images/tree.jpg');
+	background-color: lightgrey;
 }
