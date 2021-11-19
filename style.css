@@ -1,17 +1,43 @@
+html {
+	box-sizing:  border-box;
+	line-height: 1.4;
+}
+*,*:before, *:after {
+	box-sizing: inherit;
+}
+
 body {
-	max-width: 600px;
+	max-width: 50rem;
 	font-size:  2rem;
-	font-family:  Baskerville;
+	font-family:  sans-serif;
 	margin:  0 auto;
+	background-color: lightgrey;
+	padding:  0 rem 0 4rem;
 }
 
 img {
 	max-width: 100%;
 }
 
-.cool-background {
+.navigation {
+	background: #15445A;
 	color:  white;
-	background-image: url('images/tree.jpg');
+	margin-right:  1rem;
+	padding: 0.5rem 1rem;
+	height: 4rem;
+	width:  2rem;
+}
+
+.navigation:hover {
+	color: black;
+}
+
+.cool-background {
+	color:  #F2E7AB;
+	padding: 2rem 4rem;
+	max-width: 55rem;
+	background-image: url('images/coffee.jpg');
 	background-color: lightgrey;
 	background-size:  cover;
+	background-repeat: no-repeat;
 }
